@@ -35,7 +35,7 @@ public class SecondaryController {
         buttonBack.setOnAction(actionEvent -> {
            System.out.println("Back button hitted!");
             try {
-                App.setRoot("primary");
+                App.setRoot("logInScene");
             } catch (IOException e) {
                 e.printStackTrace();
             }

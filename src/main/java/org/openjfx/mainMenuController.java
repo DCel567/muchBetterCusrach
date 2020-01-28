@@ -34,7 +34,7 @@ public class mainMenuController {
 
 		buttonToLogin.setOnAction(actionEvent -> {
 			buttonToLogin.getScene().getWindow().hide();
-			App.openNewScene("primary");
+			App.openNewScene("logInScene");
 		});
 
 		buttonDownloadData.setOnAction(actionEvent -> {

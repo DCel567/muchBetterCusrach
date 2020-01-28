@@ -34,7 +34,7 @@ public class PrimaryController {
         buttonToRegistration.setOnAction(actionEvent -> {
             System.out.println("To registration button hitted!");
             try {
-                App.setRoot("secondary");
+                App.setRoot("signInScene");
             } catch (IOException e) {
                 e.printStackTrace();
             }
